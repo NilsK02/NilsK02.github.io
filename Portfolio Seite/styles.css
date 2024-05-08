@@ -1,0 +1,770 @@
+body {
+    margin: 0;
+    color: #fff;
+    background-image: url('img/hintergrund.jpg');
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.margin-bottom {
+    margin-bottom: 50px;
+}
+
+
+/* ------------------------------------------------------------- HOMEPAGE ---------------------------------------------------------- */
+#H1JWD {
+    font-size: 40px;
+    color: #4192F0;
+    text-shadow: 0 2px 1px black;
+}
+
+h1,h2,p {
+    margin: 0px;
+}
+
+.grid-system {
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+}
+
+.homepage-linkeseite{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-homepage {
+    width: 650px;
+}
+
+.homepage-coding-foto img{
+    width: 500px;
+    border-radius: 50px;
+}
+
+.homepage-foto-ich img {
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.2);
+    border-radius: 20%;
+    width: 350px;
+}
+
+@media (max-width:1200px){
+    .homepage-linkeseite {
+        width: 500px;
+        margin-right: 20px;
+    }
+    .text-homepage {
+        width: 500px;
+    }
+    .homepage-coding-foto img {
+        width: 500px;
+    }
+    #H1JWD {
+        font-size: 33px;
+    }
+}
+
+@media (max-width: 1048px){
+    .homepage-linkeseite {
+        width: 400px;
+    }
+    .text-homepage {
+        width: 400px;
+    }
+    .homepage-coding-foto img {
+        width: 400px;
+    }
+    #H1JWD {
+        font-size: 28px;
+    }
+    h1 {
+        font-size: 28px;
+    }
+    h2 {
+        font-size: 22px;
+    }
+    p{
+        font-size: 15px;
+    }
+    .homepage-foto-ich img{
+        width: 330px;
+    }
+}
+
+@media (max-width: 992px){
+    .homepage-linkeseite {
+        width: 350px;
+    }
+    .text-homepage {
+        width: 350px;
+    }
+    .homepage-coding-foto img {
+        width: 350px;
+    }
+    #H1JWD {
+        font-size: 24px;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    h2 {
+        font-size: 20px;
+    }
+    p{
+        font-size: 12px;
+    }
+    .homepage-foto-ich img{
+        margin-top: 50px;
+        width: 250px;
+    }
+}
+
+@media (max-width: 768px){
+    .homepage-linkeseite {
+        width: 270px;
+    }
+    .text-homepage {
+        width: 270px;
+    }
+    .homepage-coding-foto img {
+        width: 270px;
+    }
+    #H1JWD {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 18px;
+    }
+    h2 {
+        font-size: 15px;
+    }
+    p{
+        font-size: 11px;
+    }
+    .homepage-foto-ich img{
+        width: 150px;
+        height: 192px;
+        margin-top: -5px;
+    }
+    .homepage-coding-foto{
+        display: none;
+    }
+}
+
+@media (max-width: 600px){
+    .homepage-linkeseite {
+        width: 270px;
+    }
+    .text-homepage {
+        width: 270px;
+    }
+    .homepage-coding-foto img {
+        width: 270px;
+    }
+    #H1JWD {
+        font-size: 17px;
+        text-shadow: 0 1px .5px black;
+    }
+    h1 {
+        font-size: 17px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+    p{
+        font-size: 10px;
+    }
+    .homepage-foto-ich img{
+        width: 150px;
+        height: 192px;
+        margin-top: -5px;
+    }
+}
+
+
+@media (max-width: 440px){
+    .grid-system{
+        margin-top: 20px;
+    }
+
+    .homepage-linkeseite {
+        width: 200px;
+    }
+    .text-homepage {
+        width: 200px;
+    }
+    .homepage-coding-foto img {
+        width: 200px;
+    }
+    #H1JWD {
+        font-size: 14px;
+        text-shadow: none;
+    }
+    h1 {
+        font-size: 14px;
+    }
+    h2 {
+        font-size: 11px;
+    }
+    p{
+        font-size: 8px;
+    }
+    .homepage-foto-ich img{
+        width: auto;
+        height: 160px;
+    }
+}
+
+@media (max-width: 340px){
+    .grid-system{
+        margin-top: 15px;
+    }
+
+    .homepage-linkeseite {
+        width: 180px;
+    }
+    .text-homepage {
+        width: 180px;
+    }
+    .homepage-coding-foto img {
+        width: 180px;
+    }
+    #H1JWD {
+        font-size: 10.5px;
+        text-shadow: none;
+    }
+    h1 {
+        font-size: 10.5px;
+    }
+    h2 {
+        font-size: 9px;
+    }
+    p{
+        font-size: 7.5px;
+    }
+}
+
+/* ------------------------------------------------------------- SKILLS ---------------------------------------------------------- */
+.hard-skills {
+    padding-top: 25px;
+    padding-bottom: 18px;
+    margin-top: 200px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    box-shadow: 0px 5px 20px rgba(65, 146, 240, 0.5);
+}
+
+.hard-skills h1 {
+    margin-bottom: 40px;
+    color: #4192F0;
+    text-shadow: 0 2px 1px black;
+}
+
+#js-schwarz {
+    background-color: black;
+}
+
+.hard-skills img {
+    height: 120px;
+    width: auto;
+}
+
+@media (max-width: 1048px){
+
+    .hard-skills{
+        margin-top: 75px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+
+    .hard-skills img{
+        height: 70px;
+    }
+}
+
+@media (max-width: 992px){
+
+    .hard-skills{
+        margin-top: 75px;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+
+    .hard-skills img{
+        height: 60px;
+    }
+}
+
+@media (max-width: 768px){
+
+    .hard-skills{
+        padding-top: 20px;
+        padding-bottom: 13px;
+        margin-top: 75px;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    .hard-skills h1{
+        margin-bottom: 20px;
+    }
+
+    .hard-skills img{
+        height: 40px;
+    }
+}
+
+@media (max-width: 600px){
+
+    .hard-skills{
+        padding-top: 20px;
+        padding-bottom: 13px;
+        margin-top: 50px;
+        width: 60%;
+        margin-left: 20%;
+        margin-right: 20%;
+        border-radius: 30px;
+    }
+    .hard-skills h1{
+        margin-bottom: 15px;
+        text-shadow: 0 1px .5px black;
+    }
+
+    .hard-skills img{
+        height: 30px;
+    }
+}
+
+@media (max-width: 525px){
+    .hard-skills p{
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 440px){
+
+    .hard-skills{
+        padding-top: 15px;
+        padding-bottom: 8px;
+        margin-top: 40px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .hard-skills h1{
+        margin-bottom: 5px;
+        text-shadow: none;
+    }
+
+    .hard-skills img{
+        height: 20px;
+    }
+
+    .hard-skills p{
+        font-size: 7px;
+    }
+}
+
+@media (max-width: 340px){
+
+    .hard-skills{
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 5px;
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+    }
+    .hard-skills h1{
+        margin-bottom: 3px;
+        text-shadow: none;
+    }
+
+    .hard-skills img{
+        height: 18px;
+    }
+
+    .hard-skills p{
+        font-size: 6px;
+    }
+}
+
+/* ------------------------------------------------------------- BEWERBUNG ---------------------------------------------------------- */
+.container-motivation {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.motivationsschreiben {
+    width: 40%;
+    text-align: center;
+    font-size: 17px;
+}
+
+.motivationsschreiben h1 {
+    text-align: center;
+    color: #4192F0;
+    text-shadow: 0 2px 1px black;
+
+}
+
+.lebenslauf-seite {
+    height: 500px;
+    width: auto;
+}
+
+@media (max-width: 1048px){
+    .container-motivation{
+        margin-top: 45px;
+    }
+    .motivationsschreiben{
+        width: 70%;
+    }
+    .motivationsschreiben h1 {
+        text-shadow: 0 1px .5px black;
+    }
+}
+
+@media (max-width: 600px){
+    .container-motivation{
+        margin-top: 35px;
+    }
+    .motivationsschreiben{
+        width: 70%;
+    }
+    .motivationsschreiben p {
+        font-size: 8.5px;
+    }
+}
+
+@media (max-width:440px){
+    .container-motivation{
+        margin-top: 35px;
+    }
+    .motivationsschreiben{
+        width: 75%;
+    }
+    .motivationsschreiben h1{
+        text-shadow: none;
+    }
+    .motivationsschreiben p {
+        font-size: 7.5px;
+    }
+}
+
+@media (max-width: 340px){
+    .container-motivation{
+        margin-top: 20px;
+    }
+    .motivationsschreiben{
+        width: 80%;
+    }
+    .motivationsschreiben h1{
+        text-shadow: none;
+    }
+    .motivationsschreiben p {
+        font-size: 7px;
+    }
+}
+
+
+/* ------------------------------------------------------------- KONTAKT ---------------------------------------------------------- */
+.Button-zentrierung {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.button-blau {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #4192F0;
+    padding: 10px;
+    border-radius: 16px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.button-blau:hover {
+    background-color: white;
+    color: #2CE00B;
+    border: 1px solid #2CE00B;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.klein{
+    padding: 5px;
+    font-size: 16px;
+}
+
+.zoom:hover {
+    font-size: 24px;
+    transition: .4s;
+}
+
+@media (max-width: 992px){
+    .Button-zentrierung{
+        margin-top: 45px;
+    }
+    .button-blau{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px){
+    .Button-zentrierung{
+        margin-top: 45px;
+    }
+    .button-blau{
+        font-size: 16px;
+        padding: 6px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px){
+    .Button-zentrierung{
+        margin-top: 30px;
+    }
+    .button-blau{
+        margin-top: 0;
+        font-size: 10px;
+        padding: 4px;
+    }
+    h4{
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+}
+
+@media (max-width: 340px){
+    .Button-zentrierung{
+        margin-top: 20px;
+    }
+    .button-blau{
+        margin-top: 0;
+        font-size: 10px;
+        padding: 6px;
+    }
+    h4{
+        margin-bottom: 0;
+    }
+    h3{
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+}
+
+
+
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ 
+/* ------------------------------------------------------------- PROJEKTE ---------------------------------------------------------- */
+/*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ /*  */ 
+
+.header-text {
+    margin-top: 70px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.vorschau-container {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.thumbnail {
+    height: 280px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.beschreibung {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+    width: 400px;
+    margin-left: 100px;
+}
+
+.thumbnail-name a{
+    color: #4192F0;
+}
+
+.icon-projekte {
+    height: 40px;
+}
+
+@media (max-width: 1048px){
+    .thumbnail {
+        height: 200px;
+    }
+    
+    .beschreibung{
+        margin-left: 80px;
+    }
+
+    .icon-projekte {
+        height: 30px;
+    }
+
+    .button-blau{
+        font-size: 20px;
+        padding: 8px;
+    }
+
+    .beschreibung p{
+       font-size: 13px;
+    }
+}
+
+@media (max-width: 768px){
+    .vorschau-container{
+        margin-bottom: 75px;
+    }
+
+    .thumbnail {
+        height: 150px;
+    }
+    
+    .beschreibung{
+        margin-left: 50px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .icon-projekte {
+        height: 25px;
+    }
+
+    .beschreibung p{
+       font-size: 11px;
+       margin-bottom: -20px;
+    }
+}
+
+@media (max-width: 600px){
+    .header-text{
+        margin-top: 35px;
+        text-align: center;
+        margin-bottom: 50px;
+        font-size: 17px;
+    }
+
+    .vorschau-container{
+        margin-bottom: 50px;
+    }
+
+    .thumbnail {
+        height: 110px;
+        width: 200px;
+    }
+    
+    .beschreibung{
+        margin-left: 25px;
+        margin-top: 10px;
+        width: 300px;
+    }
+
+    .icon-projekte {
+        height: 25px;
+    }
+
+    .beschreibung p{
+       font-size: 9px;
+       margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 440px){
+    .header-text{
+        margin-top: 35px;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .vorschau-container{
+        margin-bottom: 30px;
+    }
+
+    .thumbnail {
+        height: 80px;
+        width: 140px;
+    }
+
+    .thumbnail-name a{
+        font-size: 7px;
+    }
+    
+    .beschreibung{
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 200px;
+    }
+
+    .icon-projekte {
+        height: 15px;
+    }
+
+    .button-blau{
+        font-size: 8px;
+        padding: 4px;
+    }
+
+    .beschreibung p{
+       font-size: 7px;
+       margin-bottom: -30px;
+    }
+}
+
+@media (max-width: 340px){
+    .thumbnail {
+        height: 55px;
+        width: 100px;
+    }
+
+    .thumbnail-name a{
+        font-size: 6px;
+    }
+    
+    .beschreibung{
+        margin-left: 15px;
+        margin-top: 10px;
+        width: 170px;
+    }
+
+    .icon-projekte {
+        height: 10px;
+    }
+
+    .beschreibung p{
+       font-size: 5px;
+       margin-bottom: -15px;
+    }
+}
